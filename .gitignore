@@ -21,6 +21,8 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+# config file containing mongo connect passwords
+config/keys.js
 
 # nyc test coverage
 .nyc_output
