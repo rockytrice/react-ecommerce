@@ -35,7 +35,7 @@ mongoose
 
 // App setup=================================================================
 // middleware (morgan-logging framwork)
-app.use(morgan("combined"));
+app.use(morgan("dev"));
 app.use(cors());
 
 //routes middleware
